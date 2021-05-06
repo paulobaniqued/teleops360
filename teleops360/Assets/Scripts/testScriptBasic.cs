@@ -12,7 +12,7 @@ public class testScriptBasic : MonoBehaviour
         Renderer rend = this.GetComponentInChildren<Renderer>();
 
         WebCamTexture mycam = new WebCamTexture();
-        string camName = devices[0].name; // 0:laptop webcam, 1:Theta V/Z1 cam
+        string camName = devices[3].name; // 0:laptop webcam, 3:Theta V 4K
         Debug.Log("The webcam name is " + camName);
         mycam.deviceName = camName;
         rend.material.mainTexture = mycam;
