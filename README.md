@@ -25,6 +25,20 @@ Live stream RICOH Theta V 360 video to Unity 3D and HTC Vive VR headset.
 6. Play the Unity Scene and wear the HTC Vive VR HMD
 7. You should now see the live camera stream from the VR HMD as a 360 environment
 
+# Additional Notes
+
+1. The blender sphere in Unity is inverted with a scale of -175,-175,-175 (x,y,z). You can adjust the scale of this to adjust the size perception for the user. Make sure that the values are uniformed so the sphere (and the real world objects) don't appear distorted.
+2. The blender sphere also has rotation values of 0,-90,0 (x,y,z) as a default.
+3. The console log in Unity will display the number of cameras attached to the PC during game mode (when the scene is played). Make sure that the camera name being used is "RICOH Theta V 4K" in the **webCamDetect.js** script in the Assets > Scripts folder. To change this, simply change line 14 in the script to the appropriate number assiged to RICOH Theta V:
+
+    ```jsx
+    string camName = devices[3].name;
+    ```
+
+    Note: The camera number in the PC where this application was made is [3]. Change this if "RICOH Theta V 4K" has a different value assigned to it.
+
+4. SteamVR will show an error message if the VR headset is not installed properly. To test the live stream of the 360 camera without VR, please open the other scene file in the same Assets > Scenes folder. Filename: **wc-test1.unity**
+
 # Credits
 
 1. RICOH THETA V with HTC Vive Using SteamVR ([https://github.com/codetricity/theta-v-htc-vive-steamvr](https://github.com/codetricity/theta-v-htc-vive-steamvr))
