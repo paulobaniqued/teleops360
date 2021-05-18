@@ -10,7 +10,7 @@ Live stream RICOH Theta V 360 video to Unity 3D and HTC Vive VR headset.
 
 # Software Requirements
 
-1. Unity 3D Version 2019.3.6f1
+1. Unity 3D Version 2019.3.6f1 (https://store.unity.com/#plans-individual)
 2. SteamVR Plugin for Unity ([https://assetstore.unity.com/packages/tools/integration/steamvr-plugin-32647](https://assetstore.unity.com/packages/tools/integration/steamvr-plugin-32647))
 3. RICOH Theta V Live Streaming Driver 1.0.1-64 bit ([https://topics.theta360.com/en/faq/c_06_v/304_1/](https://topics.theta360.com/en/faq/c_06_v/304_1/))
 
