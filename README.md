@@ -1,6 +1,7 @@
 # teleops360
 Live stream RICOH Theta V 360 video to Unity 3D and HTC Vive VR headset.
 A project done with Real Robotics at the University of Leeds.
+![](teleops360.gif)
 
 # Hardware Requirements
 
